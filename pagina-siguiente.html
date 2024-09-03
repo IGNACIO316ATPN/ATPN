@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Administrativo UTO</title>
+    <link rel="stylesheet" href="sc.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="UTOoficial.png" alt="Logo UTO" class="logo-uto">
+            <h1>CONTROL ADMINISTRATIVO de la UNIVERSIDAD TÉCNICA DE ORURO</h1>
+            <img src="Escudo-Oruro.png" alt="Escudo Oruro" class="escudo-oruro">
+        </div>
+
+        <div class="upload-section">
+            <div class="upload-item">
+                <img src="curriculum.jpg" alt="Currículum">
+                <label for="curriculum">Currículum</label>
+                <input type="file" id="curriculum" class="upload-button">
+            </div>
+            <div class="upload-item">
+                <img src="fotocopia detitulo.jpg" alt="Fotocopia de Título">
+                <label for="titulo">Fotocopia de Título</label>
+                <input type="file" id="titulo" class="upload-button">
+            </div>
+            <div class="upload-item">
+                <img src="foto.jpeg" alt="Foto Personal">
+                <label for="foto_personal">Foto Personal</label>
+                <input type="file" id="foto_personal" class="upload-button">
+            </div>
+            <div class="upload-item">
+                <img src="comprobantedepago.avif" alt="Comprobante de Pago">
+                <label for="comprobante">Comprobante de Pago</label>
+                <input type="file" id="comprobante" class="upload-button">
+            </div>
+            <div class="upload-item">
+                <img src="carnetiden.jpg" alt="Carnet de Identidad">
+                <label for="carnet">Carnet de Identidad</label>
+                <input type="file" id="carnet" class="upload-button">
+            </div>
+            <div class="upload-item">
+                <img src="acta-nacimiento.png" alt="Acta de Nacimiento">
+                <label for="acta_nacimiento">Acta de Nacimiento</label>
+                <input type="file" id="acta_nacimiento" class="upload-button">
+            </div>
+        </div>
+    </div>
+
+    <div class="submit-container">
+        <button class="submit-button" onclick="enviarFormulario()">Enviar</button>
+        <p id="status-message" class="status-message"></p>
+    </div>
+
+    <script src="fd.js"></script>
+</body>
+</html>

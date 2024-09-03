@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, blue, purple, red);
+}
+
+.container {
+    width: 600px;
+}
+
+.login-box {
+    border: 5px solid limegreen; /* Aumenta el grosor del borde y usa un verde más vibrante */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #d3d3d3; /* Gris claro */
+    text-align: center;
+    padding: 30px;
+}
+
+.header h2 {
+    color: white;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    background-color: #a9a9a9; /* Gris más oscuro */
+}
+
+.left-section {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.left-section .user-image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+.right-section {
+    background-color: #a9a9a9;
+    padding: 30px;
+    width: 50%;
+    color: white;
+}
+
+.right-section label {
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 10px 0 5px;
+    font-weight: bold; /* Letra en negrilla */
+}
+
+.right-section input[type="email"], 
+.right-section input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.password-container {
+    position: relative;
+}
+
+.eye {
+    display: block;
+    text-align: right;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
